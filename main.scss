@@ -26,6 +26,7 @@
   font-size: 1.2rem;
   font-weight: 1000;
   background-color: #efebe9;
+  
   //   justify-content: center;
   align-items: center;
   ul {
@@ -47,6 +48,12 @@
       }
     }
   }
+  img
+  {
+    width:130px;
+    height:130px;
+    margin-bottom: 40px;
+  }
 }
 // Transparent text
 .transText {
@@ -59,7 +66,9 @@
 .content,
 .education,
 .skill,
-.cont{
+.cont,
+.pr,
+.cpr {
   margin-left: 16%;
   padding: 12%;
   position: relative;
@@ -130,7 +139,7 @@ hr {
   margin-bottom: 40px;
 }
 
-#parentDiv {
+#parentDiv{
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -142,8 +151,8 @@ hr {
   div {
     border: 1px solid #fff;
     border-radius: 35px;
-    width: 180px;
-    height: auto;
+    width: 60%;
+    height: 20%;
     justify-content: center;
     flex-wrap: wrap;
     margin: 4%;
@@ -172,7 +181,28 @@ hr {
     }
   }
 }
-
+.link{
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: #fff;
+  }
+  a:link {
+    color: #fff;
+  }
+  div:hover {
+    color: black;
+    font-size: 15px;
+    background-color: #fff;
+    a:visited {
+      color: black !important;
+    }
+    a:link {
+      color: black !important;
+    }
+  }
+}
 p {
   font-family: kayak-bold;
   color: #fff;
